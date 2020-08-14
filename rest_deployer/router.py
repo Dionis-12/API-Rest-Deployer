@@ -1,6 +1,6 @@
 from rest_framework import routers
-from app.lenguages.views import IdiomasView
-from app.country.views import PaisView
+from apps.lenguages.views import IdiomasView
+from apps.country.views import PaisView
 
 # Se crea el Router Predeterminado
 router = routers.DefaultRouter()
