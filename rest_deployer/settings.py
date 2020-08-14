@@ -40,8 +40,8 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
 
     'rest_framework',
-    'Idiomas',
-    'Pais',
+    'app.lenguages',
+    'app.country',
 ]
 
 MIDDLEWARE = [
@@ -54,7 +54,7 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
-ROOT_URLCONF = 'Api_Rest_Deployer.urls'
+ROOT_URLCONF = 'rest_deployer.urls'
 
 TEMPLATES = [
     {
@@ -72,7 +72,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'Api_Rest_Deployer.wsgi.application'
+WSGI_APPLICATION = 'rest_deployer.wsgi.application'
 
 
 # Database

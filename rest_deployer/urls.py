@@ -19,6 +19,6 @@ from .router import router
 
 # Agrego el PATH para Idiomas
 urlpatterns = [
-    path('Admin/', admin.site.urls),
-    path('Api/', include(router.urls)),
+    path('admin/', admin.site.urls),
+    path('api/', include(router.urls)),
 ]
